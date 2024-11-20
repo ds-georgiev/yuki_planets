@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Starjedi';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../assets/fonts/Starjedi.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Starjhol';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../assets/fonts/Starjhol.ttf) format('truetype');
+  }
+}
+
+html,
+body,
+#app {
+  height: 100%; /* Ensures full height inheritance */
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+}
+
+body {
+  background-color: black; /* Optional: Sets a default body background color */
+}
+
+#app {
+  margin: 0 auto;
+}
